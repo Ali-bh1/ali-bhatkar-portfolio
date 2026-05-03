@@ -1,0 +1,16 @@
+.agent/
+.gemini/
+.planning/
+.system_generated/
+.tempmediaStorage/
+node_modules/
+.DS_Store
+*.webp
+*.png
+*.jpg
+*.jpeg
+*.mp4
+*.md.resolved*
+task.md
+implementation_plan.md
+walkthrough.md

@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <title>Ali Bhatkar — Creative Developer · ML Engineer · Frontend Specialist</title>
+  <meta name="description" content="Portfolio of Ali Bhatkar — B.Tech Computer Engineering student at RAIT, DY Patil University. Creative developer specializing in frontend engineering, ML pipelines, and production-grade web applications."/>
+  <meta property="og:title" content="Ali Bhatkar — Creative Developer"/>
+  <meta property="og:description" content="Frontend specialist & ML engineer. Building production-grade websites and ML pipelines."/>
+  <meta property="og:type" content="website"/>
+  <meta name="theme-color" content="#0c0c10"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;500;600&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <!-- Skip to content (a11y) -->
+  <a href="#about" class="skip-link">Skip to main content</a>
+
+  <!-- Custom cursor -->
+  <div id="cur" aria-hidden="true"></div>
+  <div id="curR" aria-hidden="true"></div>
+  <div class="noise" aria-hidden="true"></div>
+
+  <!-- NAV -->
+  <header>
+    <nav aria-label="Main navigation">
+      <div class="logo">Ali Bhatkar<sub>∙ Portfolio</sub></div>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#work">Projects</a>
+        <a href="#creds">Research</a>
+        <a href="#contact" class="nav-btn">Hire me</a>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- Mobile nav overlay -->
+  <div class="mobile-nav" id="mobileNav" aria-hidden="true">
+    <a href="#about">About</a>
+    <a href="#work">Projects</a>
+    <a href="#creds">Research</a>
+    <a href="#contact">Hire me</a>
+  </div>
+
+  <main>
+    <!-- HERO -->
+    <section id="hero">
+      <div class="hero-bg" aria-hidden="true">
+        <div class="orb o1"></div>
+        <div class="orb o2"></div>
+        <div class="orb o3"></div>
+      </div>
+      <canvas id="heroC" aria-hidden="true"></canvas>
+      <div class="hero-eyebrow">B.Tech Computer Engineering · RAIT, DY Patil University</div>
+      <h1 class="hero-name">Ali<br/><em>Bhatkar</em></h1>
+      <p class="hero-role">Creative Developer · ML Engineer · Frontend Specialist</p>
+      <p class="hero-loc"><span>◎</span> Navi Mumbai, Maharashtra · Open to remote internships</p>
+      <div class="btn-row">
+        <a href="#work" class="btn-p">View my projects</a>
+        <a href="#contact" class="btn-s">Get in touch →</a>
+      </div>
+      <div class="scroll-ind" aria-hidden="true"><div class="s-line"></div>scroll</div>
+    </section>
+
+    <!-- MARQUEE -->
+    <div class="mqw" aria-hidden="true"><div class="mqt" id="mq"></div></div>
+    <div class="glow-line" aria-hidden="true"></div>
+
+    <!-- ABOUT -->
+    <section id="about">
+      <div class="fade-up">
+        <div class="sec-label">Who I am</div>
+        <h2 class="sec-title">Building at the edge of<br/><em>design</em> and code</h2>
+        <p class="about-body" style="margin-top:22px">Third-year B.Tech Computer Engineering student (Minor: Data Science) at RAIT, DY Patil University — roll no. 23CE1247. I ship production-grade websites, ML pipelines, and interactive platforms that sit at the intersection of clean engineering and considered design.</p>
+        <p class="about-body">From integrating payment systems on a live coaching website to co-authoring an IEEE-accepted research paper, I build things that are real, deployed, and used.</p>
+        <div class="stats">
+          <div class="stat"><div class="n">3<span>+</span></div><div class="l">Shipped projects</div></div>
+          <div class="stat"><div class="n">1<span>×</span></div><div class="l">IEEE paper accepted</div></div>
+          <div class="stat"><div class="n">3<span>yr</span></div><div class="l">in the craft</div></div>
+        </div>
+      </div>
+      <div class="fade-up" style="transition-delay:.15s">
+        <div class="sec-label">Technical skills</div>
+        <div class="skills-grid">
+          <div class="sk"><div class="sk-cat">Languages</div><div class="sk-val"><b>JavaScript</b> ES6+, Python, HTML5, CSS3, C</div></div>
+          <div class="sk"><div class="sk-cat">Frontend</div><div class="sk-val">Vanilla JS, <b>Responsive CSS</b>, DOM, Animations, Figma</div></div>
+          <div class="sk"><div class="sk-cat">Integrations</div><div class="sk-val"><b>Razorpay</b>, Web3Forms, TidyCal, REST APIs</div></div>
+          <div class="sk"><div class="sk-cat">ML / Data</div><div class="sk-val"><b>scikit-learn</b>, NLTK, TF-IDF, Naïve Bayes, LR</div></div>
+          <div class="sk"><div class="sk-cat">Cloud</div><div class="sk-val"><b>AWS</b> — EC2, S3, IAM, VPC, Lambda</div></div>
+          <div class="sk"><div class="sk-cat">Tools</div><div class="sk-val">Git, GitHub, VS Code, <b>Cursor</b></div></div>
+        </div>
+      </div>
+    </section>
+    <div class="glow-line" aria-hidden="true"></div>
+
+    <!-- WORK -->
+    <section id="work">
+      <div class="sec-hdr fade-up">
+        <div><div class="sec-label">Selected projects</div><h2 class="sec-title">Work</h2></div>
+        <a href="mailto:alibhatkar.ab@gmail.com" class="sec-link">Get source / collab</a>
+      </div>
+      <div class="work-grid fade-up">
+        <!-- Project 1: tejaldesae.com -->
+        <a class="wi wide" href="https://tejaldesae.com" target="_blank" rel="noopener noreferrer">
+          <div class="wt"><canvas class="wc" data-t="wave" width="900" height="350"></canvas></div>
+          <div class="wo">
+            <div class="w-cat">Freelance · Production Website</div>
+            <div class="w-title">tejaldesae.com — Coaching Business Site</div>
+            <div class="w-desc">Custom static site — no framework. Live payment collection, email capture, booking calendar, and a 4-step application form with auto-save and bot protection. Built for a real client, in production.</div>
+            <div class="w-tags"><span class="w-tag">HTML</span><span class="w-tag">CSS</span><span class="w-tag">Vanilla JS</span><span class="w-tag">Razorpay</span><span class="w-tag">Web3Forms</span><span class="w-tag">TidyCal</span></div>
+          </div>
+          <div class="w-arr">↗</div>
+        </a>
+        <!-- Project 2: Veherex -->
+        <a class="wi" href="https://veherex.in" target="_blank" rel="noopener noreferrer">
+          <div class="wt"><canvas class="wc" data-t="particles" width="440" height="330"></canvas></div>
+          <div class="wo">
+            <div class="w-cat">EV Platform · IEEE Research</div>
+            <div class="w-title">Veherex — EV Recommendation Platform</div>
+            <div class="w-desc">Full frontend for an Indian EV comparison and recommendation platform. Smart filtering by budget, range, and charging. Co-authored IEEE I3CTCON 2026 paper.</div>
+            <div class="w-tags"><span class="w-tag">HTML</span><span class="w-tag">CSS</span><span class="w-tag">JavaScript</span><span class="w-tag">EV Data</span></div>
+          </div>
+          <div class="w-arr">↗</div>
+        </a>
+        <!-- Project 3: Spam Classifier -->
+        <div class="wi">
+          <div class="wt"><canvas class="wc" data-t="grid" width="440" height="330"></canvas></div>
+          <div class="wo">
+            <div class="w-cat">ML Pipeline · NLP</div>
+            <div class="w-title">Spam Text Classifier</div>
+            <div class="w-desc">End-to-end classification pipeline — tokenization → TF-IDF vectorization → model selection. Compared Naïve Bayes vs Logistic Regression, chose final model on F1 score over accuracy.</div>
+            <div class="w-tags"><span class="w-tag">Python</span><span class="w-tag">scikit-learn</span><span class="w-tag">NLTK</span><span class="w-tag">TF-IDF</span></div>
+          </div>
+          <div class="w-arr">↗</div>
+        </div>
+      </div>
+    </section>
+    <div class="glow-line" aria-hidden="true"></div>
+
+    <!-- CREDS & RESEARCH -->
+    <section id="creds">
+      <div class="creds-inner">
+        <!-- Certifications -->
+        <div class="fade-up">
+          <div class="sec-label">Credentials</div>
+          <h2 class="sec-title">Certifications</h2>
+          <div class="cert-list">
+            <div class="cert-row">
+              <div class="cert-body">
+                <div class="cert-name">AWS Academy Graduate — Cloud Foundations</div>
+                <div class="cert-issuer">Amazon Web Services · 2026 · Credly verified</div>
+              </div>
+              <div class="cert-badge">✓ Active</div>
+            </div>
+            <div class="cert-row">
+              <div class="cert-body">
+                <div class="cert-name">CS50P — Introduction to Python with AI</div>
+                <div class="cert-issuer">Harvard University / edX · Aug 2024</div>
+              </div>
+              <div class="cert-badge">✓ Active</div>
+            </div>
+            <div class="cert-row">
+              <div class="cert-body">
+                <div class="cert-name">Soft Skills</div>
+                <div class="cert-issuer">NPTEL · Mar 2026</div>
+              </div>
+              <div class="cert-badge">✓ Active</div>
+            </div>
+          </div>
+          <div class="edu-card">
+            <div class="sec-label" style="margin-bottom:10px">Education</div>
+            <div class="edu-title">B.Tech Computer Engineering</div>
+            <div class="edu-sub">Minor in Data Science · Roll No. 23CE1247</div>
+            <div class="edu-info">RAIT, DY Patil University · 2023 – 2027 (Pursuing)</div>
+          </div>
+        </div>
+        <!-- Research -->
+        <div class="fade-up" style="transition-delay:.15s">
+          <div class="sec-label">Research</div>
+          <h2 class="sec-title">IEEE Paper</h2>
+          <div class="research-card">
+            <div class="rc-badge">
+              <span class="rc-dot"></span>
+              Accepted · Peer-reviewed
+            </div>
+            <div class="rc-title">VEHEREX: A Personalized EV Recommendation Platform Using Multi-Criteria Filtering</div>
+            <div class="rc-meta">
+              <b>Conference:</b> IEEE I3CTCON 2026<br/>
+              <b>Venue:</b> Lonavala, India<br/>
+              <b>Institution:</b> RAIT, DY Patil University<br/>
+              <b>Mentors:</b> Siuli Das · Gargi Phadke
+            </div>
+            <div class="rc-authors">Co-authors: Aryan Bhanage · Ayushmaan Singh · Arjun Aikat</div>
+          </div>
+          <div class="contact-mini">
+            <div class="sec-label" style="margin-bottom:10px">Contact</div>
+            <div class="contact-mini-row">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+              <a href="mailto:alibhatkar.ab@gmail.com" style="color:var(--accent)">alibhatkar.ab@gmail.com</a>
+            </div>
+            <div class="contact-mini-row">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              <span style="color:var(--text3)">+91 86689 18928</span>
+            </div>
+            <div class="contact-mini-row">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
+              <a href="https://linkedin.com/in/ali-bhatkar-416a36293" target="_blank" rel="noopener noreferrer" style="color:var(--teal)">linkedin.com/in/ali-bhatkar-416a36293</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="glow-line" aria-hidden="true"></div>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <div class="ct-inner fade-up">
+        <div class="sec-label">Ready to work together?</div>
+        <h2 class="ct-h">Let's build<br/>something <em>real</em></h2>
+        <p class="ct-sub">I'm actively seeking internship opportunities in software development, frontend engineering, and AI/ML-focused roles. If you're building something interesting and want a developer who ships — let's talk.</p>
+        <div class="btn-row">
+          <a href="mailto:alibhatkar.ab@gmail.com" class="btn-p">alibhatkar.ab@gmail.com</a>
+          <a href="https://linkedin.com/in/ali-bhatkar-416a36293" class="btn-s" target="_blank" rel="noopener noreferrer">LinkedIn →</a>
+        </div>
+        <div class="ct-email">Roll No. 23CE1247 · RAIT, DY Patil University · Navi Mumbai</div>
+        <div class="ct-links">
+          <a href="https://linkedin.com/in/ali-bhatkar-416a36293" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="mailto:alibhatkar.ab@gmail.com">Email</a>
+          <a href="https://veherex.in" target="_blank" rel="noopener noreferrer">Veherex ↗</a>
+          <a href="https://tejaldesae.com" target="_blank" rel="noopener noreferrer">tejaldesae.com ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="fl">© <span id="year">2025</span> <b>Ali Bhatkar</b> · All rights reserved</div>
+    <div class="fr">23CE1247 · RAIT, DY Patil University</div>
+  </footer>
+
+  <!-- BACK TO TOP -->
+  <a href="#" class="back-top" id="backTop" aria-label="Back to top">↑</a>
+
+  <script src="script.js"></script>
+</body>
+</html>
